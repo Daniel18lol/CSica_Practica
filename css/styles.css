@@ -13,6 +13,8 @@ html {
   padding: 50px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
   width: 100%;
   height: 500px;
   background-image: url(/img/Grupo22@2x.jpg);
@@ -22,16 +24,49 @@ html {
 #link-list {
   margin-right: 100px;
 }
-#options {
-}
-
 ul {
   list-style: none;
+}
+li > a {
+  text-decoration: none;
 }
 #logo-img {
   width: 200px;
   height: 100px;
   background-image: url(/img/Trazado58.svg);
   background-repeat: no-repeat;
-  margin-right: 150px;
+}
+.separador {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+#input-buscar {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 15px;
+  opacity: 0.4;
+  border: none;
+}
+#csica-img {
+  width: 200px;
+  height: 100px;
+}
+.tipo li {
+  border-radius: 15px;
+  width: 200px;
+  background-color: white;
+  text-align: center;
+  margin: 10px;
+  color: black;
+  opacity: 0.3;
+  border: none;
+}
+.segundo-container {
+  display: flex;
+  width: 500px;
+  flex-direction: row;
 }
