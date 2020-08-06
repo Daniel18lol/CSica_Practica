@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+  background-color: greenyellow;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  color: white;
+  margin: 0;
+}
+.nav-container {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 500px;
+  background-image: url(/img/Grupo22@2x.jpg);
+  background-size: cover;
+}
+
+#link-list {
+  margin-right: 100px;
+}
+#options {
+}
+
+ul {
+  list-style: none;
+}
+#logo-img {
+  width: 200px;
+  height: 100px;
+  background-image: url(/img/Trazado58.svg);
+  background-repeat: no-repeat;
+  margin-right: 150px;
+}
