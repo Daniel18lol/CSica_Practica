@@ -12,7 +12,7 @@ html {
 .nav-container {
   padding: 50px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
@@ -38,6 +38,7 @@ li > a {
 }
 .separador {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
   align-content: space-between;
@@ -64,6 +65,28 @@ li > a {
   color: black;
   opacity: 0.3;
   border: none;
+}
+#signin {
+  border-radius: 15px;
+  margin-top: 0px;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  width: 150px;
+  height: 30px;
+  background-color: transparent;
+
+  margin: 10px;
+  color: white;
+  border-color: white;
+}
+#options {
+  display: flex;
+  flex-direction: row;
+}
+.tipo {
+  display: flex;
+  flex-wrap: wrap;
 }
 .segundo-container {
   display: flex;
