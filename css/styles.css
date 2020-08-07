@@ -7,48 +7,46 @@ html {
 *::before {
   box-sizing: inherit;
   color: white;
+  font-size: 1.09rem;
   margin: 0;
 }
 .nav-container {
-  padding: 50px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  padding: 50px;
   width: 100%;
-  height: 500px;
-  background-image: url(/img/Grupo22@2x.jpg);
+  background-image: url(../img/Grupo22@2x.jpg);
   background-size: cover;
 }
-
-#link-list {
-  margin-right: 100px;
-}
 ul {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
 }
 li > a {
   text-decoration: none;
+  margin-right: 40px;
 }
 #logo-img {
   width: 200px;
   height: 100px;
-  background-image: url(/img/Trazado58.svg);
+  background-image: url(../img/Trazado58.svg);
   background-repeat: no-repeat;
 }
-.separador {
+.primer-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  align-content: space-between;
 }
 
 #input-buscar {
+  height: 30px;
   padding-left: 20px;
   padding-bottom: 10px;
   padding-top: 10px;
   border-radius: 15px;
+  margin-right: 15px;
   opacity: 0.4;
   border: none;
 }
@@ -59,6 +57,7 @@ li > a {
 .tipo li {
   border-radius: 15px;
   width: 200px;
+  height: 30px;
   background-color: white;
   text-align: center;
   margin: 10px;
@@ -66,30 +65,76 @@ li > a {
   opacity: 0.3;
   border: none;
 }
+input,
+button {
+  font-size: 13px;
+  color: white;
+}
 #signin {
   border-radius: 15px;
-  margin-top: 0px;
-  margin-left: 0;
-  margin-bottom: 0;
-  margin-right: 0;
   width: 150px;
   height: 30px;
   background-color: transparent;
-
-  margin: 10px;
-  color: white;
   border-color: white;
 }
 #options {
   display: flex;
-  flex-direction: row;
 }
 .tipo {
   display: flex;
+  width: 630px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.tipo-separador {
+  margin-bottom: 35px;
+}
+.tipo-separador > ul {
+  display: flex;
+  margin-left: 100px;
+  padding: 0;
+  flex-direction: column;
+}
+.segundo-container,
+.tercer-container,
+.tipo-separador,
+#post1,
+#post2 {
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 .segundo-container {
+  justify-content: space-between;
+}
+#post1,
+#post2 {
+  align-items: center;
+}
+.tercer-container {
+  justify-content: space-evenly;
+}
+#posts {
   display: flex;
-  width: 500px;
-  flex-direction: row;
+  flex-direction: column;
+}
+#post1 {
+  margin-bottom: 50px;
+}
+#img1,
+#img2 {
+  width: 110px;
+  height: 110px;
+  border-radius: 10px;
+}
+#img3 {
+  width: 200px;
+  height: 300px;
+  margin-left: 50px;
+}
+#img1 {
+  margin-left: 20px;
+}
+#img2 {
+  margin-right: 20px;
 }

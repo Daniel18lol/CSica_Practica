@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSica</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav class="nav-container">
-        <div class="separador">
+        <div class="primer-container">
           <div id="logo-img"></div>
           <div id="link-list">
             <ul>
@@ -20,25 +20,25 @@
             </ul>
           </div>
           <div id="options">
-            <div>
-              <input
-                type="search"
-                name="Buscar"
-                id="input-buscar"
-                placeholder="Buscar"
-              />
-            </div>
+            <input
+              type="search"
+              name="Buscar"
+              id="input-buscar"
+              placeholder="Buscar"
+            />
             <button id="signin">Signin</button>
           </div>
         </div>
         <div class="segundo-container">
           <div class="tipo">
-            <img src="img/Grupo26.svg" alt="CSica" id="csica-img" />
-            <ul>
-              <li>Experimental</li>
-              <li>Alternativa</li>
-              <li>Electrónica</li>
-            </ul>
+            <div class="tipo-separador">
+              <img src="img/Grupo26.svg" alt="CSica" id="csica-img" />
+              <ul>
+                <li>Experimental</li>
+                <li>Alternativa</li>
+                <li>Electrónica</li>
+              </ul>
+            </div>
             <h3>Lorem Ipsum es simplemente un texto</h3>
             <p>
               ficticio de la industria de impresión y composición tipográfica.
@@ -46,7 +46,30 @@
               desde el año 1500.
             </p>
           </div>
-          <div></div>
+          <div class="tercer-container">
+            <div id="posts">
+              <div id="post1">
+                <p>
+                  Post <br />
+                  10 canciones
+                </p>
+                <img
+                  src="./img/aditya-chinchure-ZhQCZjr9fHo-unsplash@2x.png"
+                  id="img1"
+                />
+              </div>
+              <div id="post2">
+                <img src="./img/adrian-korte-1@2x.png" id="img2" />
+                <p>
+                  Olistic <br />
+                  15 canciones
+                </p>
+              </div>
+            </div>
+            <div>
+              <img src="./img/Grupo9.svg" alt="Colores" id="img3" />
+            </div>
+          </div>
         </div>
       </nav>
     </header>
