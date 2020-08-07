@@ -17,6 +17,7 @@ html {
   width: 100%;
   background-image: url(../img/Grupo22@2x.jpg);
   background-size: cover;
+  background-position: center center;
 }
 ul {
   display: flex;
@@ -72,13 +73,14 @@ button {
 }
 #signin {
   border-radius: 15px;
-  width: 150px;
+  width: 130px;
   height: 30px;
   background-color: transparent;
   border-color: white;
 }
 #options {
   display: flex;
+  flex-wrap: wrap;
 }
 .tipo {
   display: flex;
