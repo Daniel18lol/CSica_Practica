@@ -8,18 +8,18 @@
   </head>
   <body>
     <header>
-      <nav class="nav-container">
-        <div class="primer-container">
+      <nav class="nav-container flexcolumn">
+        <div class="primer-container flexrow wrap">
           <div id="logo-img"></div>
           <div id="link-list">
-            <ul>
+            <ul class="flexrow">
               <li><a href="#">New</a></li>
               <li><a href="#">Música</a></li>
               <li><a href="#">Eventos</a></li>
               <li><a href="#">Radio</a></li>
             </ul>
           </div>
-          <div id="options">
+          <div id="options" class="flexrow wrap">
             <input
               type="search"
               name="Buscar"
@@ -29,14 +29,14 @@
             <button id="signin">Signin</button>
           </div>
         </div>
-        <div class="segundo-container">
-          <div class="tipo">
-            <div class="tipo-separador">
+        <div class="segundo-container flexrow wrap">
+          <div class="tipo flexcolumn wrap">
+            <div class="tipo-separador flexrow">
               <img src="img/Grupo26.svg" alt="CSica" id="csica-img" />
-              <ul>
-                <li>Experimental</li>
-                <li>Alternativa</li>
-                <li>Electrónica</li>
+              <ul class="flexcolumn">
+                <li><p>Experimental</p></li>
+                <li><p>Alternativa</p></li>
+                <li><p>Electrónica</p></li>
               </ul>
             </div>
             <h3>Lorem Ipsum es simplemente un texto</h3>
@@ -46,9 +46,9 @@
               desde el año 1500.
             </p>
           </div>
-          <div class="tercer-container">
-            <div id="posts">
-              <div id="post1">
+          <div class="tercer-container flexrow wrap">
+            <div id="posts" class="flexcolumn">
+              <div id="post1" class="flexrow wrap">
                 <p>
                   Post <br />
                   10 canciones
@@ -58,7 +58,7 @@
                   id="img1"
                 />
               </div>
-              <div id="post2">
+              <div id="post2" class="flexrow wrap">
                 <img src="./img/adrian-korte-1@2x.png" id="img2" />
                 <p>
                   Olistic <br />
