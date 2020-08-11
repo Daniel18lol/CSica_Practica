@@ -8,7 +8,7 @@ html {
   font-size: 1.09rem;
   margin: 0;
 }
-main {
+body {
   background-color: rgb(236, 236, 236);
 }
 .flexcolumn {
@@ -29,6 +29,7 @@ main {
   background-size: cover;
   background-position: center center;
   color: white;
+  overflow: hidden;
 }
 ul {
   list-style: none;
@@ -119,7 +120,8 @@ input[type="search"]::placeholder {
 #img3 {
   width: 200px;
   height: 300px;
-  margin-left: 50px;
+  position: relative;
+  right: -144px;
 }
 #img1 {
   margin-left: 20px;
@@ -155,10 +157,14 @@ input[type="search"]::placeholder {
   margin-right: 100px;
 }
 .canciones-albumes {
-  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 h2 {
   font-size: 2rem;
+}
+p {
+  text-align: center;
 }
 table {
   border-collapse: collapse;
@@ -183,4 +189,61 @@ th {
 .canciones-albumes {
   border-bottom: thin solid;
   margin: 0 100px 0 100px;
+}
+#michal-img {
+  width: 500px;
+  height: 250px;
+  margin-top: 0 !important;
+}
+.eventos-container {
+  margin: 60px;
+  margin-left: 200px;
+  margin-right: 200px;
+  box-shadow: 2px 2px 5px #999;
+}
+.flecha-abajo {
+  transform: rotate(90deg);
+}
+.imagen-titulo-contenedor {
+  padding-left: 70px;
+  align-items: baseline;
+  margin-top: 25px;
+}
+.imagen-titulo-contenedor > h3 {
+  margin-right: 20px;
+}
+.imagen-titulo-contenedor > img {
+  margin-right: 80px;
+}
+#flechas {
+  margin-right: 38px;
+}
+.eventos-info {
+  position: relative;
+  background-color: white;
+  width: 600px;
+  height: 240px;
+  padding: 20px;
+  border-radius: 20px;
+  top: -240px;
+  left: 460px;
+  box-shadow: 2px 2px 5px #999;
+}
+.eventos {
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 15px;
+  align-items: center;
+}
+.eventos > button {
+  width: 130px;
+  height: 30px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: #00cfa5;
+}
+#todos-eventos {
+  margin-top: 10px;
 }
