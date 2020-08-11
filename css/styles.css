@@ -5,7 +5,6 @@ html {
 *::after,
 *::before {
   box-sizing: inherit;
-  color: white;
   font-size: 1.09rem;
   margin: 0;
 }
@@ -29,6 +28,7 @@ main {
   background-image: url(../img/Grupo22@2x.jpg);
   background-size: cover;
   background-position: center center;
+  color: white;
 }
 ul {
   list-style: none;
@@ -36,6 +36,7 @@ ul {
 li > a {
   text-decoration: none;
   margin-right: 40px;
+  color: white;
 }
 #logo-img {
   width: 200px;
@@ -146,19 +147,15 @@ input[type="search"]::placeholder {
   margin-top: 15px;
 }
 .topsongs-titles {
+  justify-content: space-between;
+  margin-top: 30px;
   align-items: baseline;
+}
+.topsongs-titles h4:nth-child(4) {
+  margin-right: 100px;
 }
 .canciones-albumes {
   margin-top: 30px;
-}
-table,
-tr,
-td,
-th,
-h4,
-h2,
-h1 {
-  color: black !important;
 }
 h2 {
   font-size: 2rem;
@@ -167,17 +164,11 @@ table {
   border-collapse: collapse;
   margin-top: 30px;
 }
-.topsongs-tabla {
-  border-spacing: 40px;
-}
 td.flexrow.wrap > img {
   margin-right: 10px;
 }
-strong {
-  color: black;
-}
-.tipo > h3 {
-  color: white !important;
+.newalbumes-imgs-container > div > div {
+  font-size: 15px;
 }
 tr {
   border-bottom: thin solid;
@@ -188,4 +179,8 @@ th {
   padding-bottom: 3px;
   padding-left: 20px;
   padding-right: 20px;
+}
+.canciones-albumes {
+  border-bottom: thin solid;
+  margin: 0 100px 0 100px;
 }
