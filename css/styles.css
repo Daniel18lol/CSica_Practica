@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  background-color: greenyellow;
 }
 *,
 *::after,
@@ -9,6 +8,9 @@ html {
   color: white;
   font-size: 1.09rem;
   margin: 0;
+}
+main {
+  background-color: rgb(236, 236, 236);
 }
 .flexcolumn {
   display: flex;
@@ -123,4 +125,67 @@ input[type="search"]::placeholder {
 }
 #img2 {
   margin-right: 20px;
+}
+.newalbumes-imgs {
+  width: 150px;
+  height: 150px;
+}
+.topsongs-img {
+  width: 50px;
+  height: 50px;
+}
+.topsongs-corazon {
+  width: 20px;
+  height: 20px;
+}
+.canciones-albumes,
+.topsongs-titles {
+  justify-content: space-evenly;
+}
+.newalbumes-imgs-container {
+  margin-top: 15px;
+}
+.topsongs-titles {
+  align-items: baseline;
+}
+.canciones-albumes {
+  margin-top: 30px;
+}
+table,
+tr,
+td,
+th,
+h4,
+h2,
+h1 {
+  color: black !important;
+}
+h2 {
+  font-size: 2rem;
+}
+table {
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+.topsongs-tabla {
+  border-spacing: 40px;
+}
+td.flexrow.wrap > img {
+  margin-right: 10px;
+}
+strong {
+  color: black;
+}
+.tipo > h3 {
+  color: white !important;
+}
+tr {
+  border-bottom: thin solid;
+}
+td,
+th {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
